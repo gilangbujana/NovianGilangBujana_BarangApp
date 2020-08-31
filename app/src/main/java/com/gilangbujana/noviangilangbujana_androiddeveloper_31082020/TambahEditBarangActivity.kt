@@ -23,7 +23,7 @@ class TambahEditBarangActivity : AppCompatActivity() {
         if (intent != null && intent.getStringExtra("Mode") == "E") {
             isEditMode = true
             val barang: Barang = dbHandler!!.getBarang(intent.getIntExtra("Id",0))
-            
+
         }
     }
 
