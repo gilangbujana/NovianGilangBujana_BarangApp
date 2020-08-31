@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    tools:context=".TambahEditBarangActivity">
+
+    <EditText
+        android:id="@+id/et_nama_barang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Barang"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/et_qty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Qty"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/et_exp_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Exp Date"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/et_harga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Harga"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btn_tambah_edit_barang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tambah barang"
+        android:textAllCaps="true"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btn_hapus_barang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hapus barang"
+        android:textAllCaps="true"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
